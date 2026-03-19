@@ -1,0 +1,5 @@
+playlist=("pais tropical","garota de ipanema","me chama","e amor","oi balde")
+playlist.remover(partilhar)
+playlist.pop(0)
+print(playlist)
+print(playlist.index)
