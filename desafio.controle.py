@@ -1,10 +1,8 @@
-# Configuração inicial
 autorizados = ["Alice", "Bob", "Carlos"]
 
-# Entrada de dados
 nome = input("Digite o nome do pesquisador: ")
 
-# Verificação de existência
+
 if nome in autorizados:
     indice = autorizados.index(nome)
     print(f"Acesso Permitido! O pesquisador {nome} está na posição {indice}.")
